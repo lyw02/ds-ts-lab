@@ -34,7 +34,7 @@ interface Colleague {
   contact: Contact;
 }
 
-interface Colleagues {
+interface ColleagueHistory  {
   current: Colleague[];
   former: Colleague[];
 }
@@ -66,7 +66,7 @@ const colleague3: Colleague = {
   },
 };
 
-const colleagues: Colleagues = {
+const colleagues: ColleagueHistory  = {
   current: [colleague1, colleague2, colleague3],
   former: [],
 };
