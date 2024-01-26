@@ -40,7 +40,7 @@ const colleague2: Colleague = {
 };
 
 const colleague3: Colleague = {
-  name: "Dean Sullivan",
+  name: "Paul Fleming",
   department: "HR",
   contact: {
     email: "dos@company.com",
